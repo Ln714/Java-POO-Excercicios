@@ -2,7 +2,7 @@ public class ContaCorrente extends Conta{
 
     private static final double taxaSaque = 2.00;
 
-    //construtor
+    //construtor corrente
     public ContaCorrente(int numeroConta, double saldoConta){
         super(numeroConta, saldoConta);
 
