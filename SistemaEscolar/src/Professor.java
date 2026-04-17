@@ -16,19 +16,4 @@ public class Professor extends Pessoa {
     public String Apresentar() {
         return "Sou o professor: " + getNomePessoa() + ", leciono: " + getDisciplina();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

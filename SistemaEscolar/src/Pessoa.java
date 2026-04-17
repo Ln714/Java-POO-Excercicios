@@ -6,7 +6,7 @@ public abstract class Pessoa {
     //construtor
     public Pessoa(String nomePessoa, int idade) {
         this.nomePessoa = nomePessoa;
-        this.idadePessoa = idadePessoa;
+        this.idadePessoa = idade;
     }
 
     //MT acessor

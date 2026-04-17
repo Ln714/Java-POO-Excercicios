@@ -13,6 +13,6 @@ public class Diretor extends Pessoa{
     }
     @Override
     public String Apresentar(){
-        return "Sou o diretor: " + getNomePessoa() + ", ha " + getTempoGestao() + "anos na gestão";
+        return "Sou o Diretor(a): " + getNomePessoa() + ", ha " + getTempoGestao() + " anos na gestão.";
     }
 }

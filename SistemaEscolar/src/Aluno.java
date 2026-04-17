@@ -1,4 +1,4 @@
-public class Aluno {
+public class Aluno extends Pessoa{
     private int Matricula;
 
     public Aluno(String nomePessoa, int idade, int matricula) {
@@ -6,18 +6,18 @@ public class Aluno {
         Matricula = matricula;
     }
 
-    //GET
+    //getter
     public int getMatricula() {
         return Matricula;
     }
-    //SET
 
-
+    //setter
     public void setMatricula(int matricula) {
         Matricula = matricula;
     }
-@Override
-public String Apresentar() {
-        return "Sou o aluno: " + getnomepessoa() + " tenho " + getIdade() + " anos, matricula: " + getMatricula();
+
+    @Override
+    public String Apresentar() {
+        return "Sou o aluno: " + getNomePessoa() + ", tenho " + getIdade() + " anos, matricula: " + getMatricula();
     }
 }
