@@ -1,11 +1,11 @@
-public class ContaPoupança extends Conta {
+public class ContaPoupanca extends Conta {
 
     private static final double rendimentoMensal = 0.005;
 
     //construtor poupança
 
     //MT poupança
-    public ContaPoupança(int numeroConta, double saldoConta) {
+    public ContaPoupanca(int numeroConta, double saldoConta) {
         super(numeroConta, saldoConta);
     }
 
